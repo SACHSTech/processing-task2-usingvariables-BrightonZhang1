@@ -27,18 +27,18 @@ public class Sketch extends PApplet {
 
 	// House Body
 		fill(240, 65, 65);
-		rect(width/2, height/(400f/175f), width/(400f/150f), height/(400f/125f));
+		rect(width / 2, height / (400f / 175f), width / (400f / 150f), height / (400f / 125f));
 	
 	// Chimney
 		fill(91, 98, 110);
-		rect(width/(400f/325f), height/(400f/110f), width/(400f/25f), height/(400f/60f));
+		rect(width / (400f / 325f), height / (400f / 110f), width / (400f / 25f), height / (400f / 60f));
 		
 	// Roof Body
 		fill(91, 98, 110);
-		triangle(width/(400f/175f), height/(400f/175f), width/(400f/375f), height/(400f/175f), width/(400f/275f), height/(400f/100f));
+		triangle(width / (400f / 175f), height / (400f / 175f), width / (400f / 375f), height / (400f / 175f), width / (400f / 275f), height / (400f / 100f));
 
 	// Sun
 		fill(235, 222, 52);
-		ellipse(width/(400f/25f), height/(400f/25f), width/(400f/100f), height/(400f/100f));
+		ellipse(width / (400f / 25f), height / (400f / 25f), width / (400f / 100f), height / (400f / 100f));
   }
 }
